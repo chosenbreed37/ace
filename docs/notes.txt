@@ -1,0 +1,46 @@
+Key entities
+
+- Subjects (e.g. Maths, English, etc)
+
+- Topics (e.g. Basic Counting)
+
+- Questions
+  attributes:
+    - unique identifier
+    - quetion text
+    - media (images | sounds | videos)
+    - possible answers (a , b, c, d)
+
+- Question answer
+ - answer (a | b | c | d)
+ - explanation
+  │ └── uuid@3.1.0
+
+- Tests
+
+- Test Questions
+
+- Test Score
+
+- Test History
+
+// using local tunnel
+lt --port 3000 --subdomain acelearning
+
+// automation
+Options: grunt, gulp, npm scripts
+Choice: npm scripts
+
+// transpiling
+Options:babel, typescript, elm, fable, etc
+Choice:babel
+
+// babel configuration
+Options:.babelrc package.json
+Choice: .babelrc
+
+// transpiling environment
+
+// bundlers
+options: browserify | webpack | rollup |jspm
+choice: webpack( more than js, hot reloading)
